@@ -15,4 +15,4 @@ Bitte unbedingt beachten:
 
 Bekannte Probleme (Stand 6.11.2016):
 - Die Brücke auf der Bestückungsseite, am T1, ist sehr nahe am Transistor. Hier bitte ein Stück Isolierschlauch benutzen.
-- Die Spannungsmessung ist ungenau, kann aber durch nachmessen der 5V Betriebsspannung (4,8 - 5,2V) und eintragen des realen Teilerwertes in das Sketch ( die 0,0049V setzen sich aus der gemessenen Spannung/ Referenzspannung geteilt durch 1024 zusammen) verbessert werden.
+- Die Spannungsmessung ist ungenau, kann aber durch nachmessen der 5V Betriebsspannung (4,8 - 5,2V) und eintragen des realen Multiplizierwertes in das Sketch ( die 0,0049V setzen sich aus der gemessenen Spannung/ Referenzspannung geteilt durch 1024 zusammen) verbessert werden.
