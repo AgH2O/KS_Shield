@@ -10,7 +10,9 @@ Das Layout der Platine sowie die Front und Seitenbeschriftung stammt von Thor La
 
 Die Erweiterungen umfassen einen Timer mit automatischer Ein-/Aus-schaltung, wobei die Wassermenge und die gewünschte ppm Stärke frei gewählt werden kann. Die daraus resultierende Zeit, wird nach der Faradayschen Formel  m = M * I * t / (z * F) ausgerechnet. Es handelt sich um ein rein privates und nicht kommerzielles Projekt. Der Nachbau erfolgt auf eigene Gefahr.
 
-
+Die beiden Platinenlayouts sind im Abacom Sprint-Layoutformat. Den Viewer zum ausdrucken gibt es hier:
+http://www.abacom-online.de/updates/Sprint-Layout60_Viewer.exe
+ 
 Bitte unbedingt beachten:  
 1.) Kurzschlüsse oder sonstige defekte am Shield, können den USB-Port zerstören und damit auch ihren PC oder Laptop. Deshalb empfehle ich, den Arduino zunächst ++OHNE++ Shield zu programmieren und danach das Gerät nur noch mit einem externen Netzteil (9V Steckernetzteil direkt am Arduino) mit dem aufgestecktem Shield zu betreiben. 
 
