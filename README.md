@@ -4,6 +4,11 @@ Kolloidal Silber Generator Arduino Uno shield
 
 Die Informationen zu diesem Projekt sind mit größter Sorgfalt erarbeitet.Dennoch können Fehler nicht vollständig ausgeschlossen werden. Die Authoren/Entwickler übernehmen keinerlei juristische Verantwortung oder Haftung für eventuell verbliebende Fehler und deren Folgen.
 
+Das KS-Shield ist aus dem Selbstbauprojekt 7 von Hans-Dieter Teuteberg entstanden.
+http://www.kolloidal-silber.de/koll_silber_selbstbauprojekt_7_III_4_baustufe.htm
+Die Erweiterungen umfassen einen Timer mit automatischer Ein-/Aus-schaltung, wobei die Wassermenge und die gewünschte ppm Stärke frei gewählt werden kann. Die daraus resultierende Zeit, wird nach der Faradayschen Formel  m = M * I * t / (z * F) ausgerechnet. Es handelt sich um ein rein privates und nicht kommerzielles Projekt.
+
+
 Bitte unbedingt beachten:  
 1.) Kurzschlüsse oder sonstige defekte am Shield, können den USB-Port zerstören und damit auch ihren PC oder Laptop. Deshalb empfehle ich, den Arduino zunächst ++OHNE++ Shield zu programmieren und danach das Gerät nur noch mit einem externen Netzteil (9V Steckernetzteil direkt am Arduino) mit dem aufgestecktem Shield zu betreiben. 
 
