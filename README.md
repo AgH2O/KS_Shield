@@ -6,7 +6,7 @@ Die Informationen zu diesem Projekt sind mit größter Sorgfalt erarbeitet.Denno
 
 Das KS-Shield ist aus dem Selbstbauprojekt 7 von Hans-Dieter Teuteberg entstanden.
 http://www.kolloidal-silber.de/koll_silber_selbstbauprojekt_7_III_4_baustufe.htm
-Die Erweiterungen umfassen einen Timer mit automatischer Ein-/Aus-schaltung, wobei die Wassermenge und die gewünschte ppm Stärke frei gewählt werden kann. Die daraus resultierende Zeit, wird nach der Faradayschen Formel  m = M * I * t / (z * F) ausgerechnet. Es handelt sich um ein rein privates und nicht kommerzielles Projekt.
+Die Erweiterungen umfassen einen Timer mit automatischer Ein-/Aus-schaltung, wobei die Wassermenge und die gewünschte ppm Stärke frei gewählt werden kann. Die daraus resultierende Zeit, wird nach der Faradayschen Formel  m = M * I * t / (z * F) ausgerechnet. Es handelt sich um ein rein privates und nicht kommerzielles Projekt. Der Nachbau erfolgt auf eigene Gefahr.
 
 
 Bitte unbedingt beachten:  
