@@ -133,7 +133,7 @@ void print_ppm(float ppm) {
 void print_polw(unsigned int polwechselzeit) {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Umpolzeit:  Sek");
+  lcd.print("Umpolzeit:   Sek");
   lcd.setCursor(0, 1);
   lcd.print("Auf   Ab  Weiter");
   lcd.setCursor(11, 0);
