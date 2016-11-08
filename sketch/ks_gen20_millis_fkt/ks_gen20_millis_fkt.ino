@@ -3,7 +3,7 @@
  * Name.......:  ks_gen
  * Description:  Arduino sketch for the kolloidal silver generator shield 
  * Author.....:  Peter Schmidt
- * Version....:  0.2
+ * Version....:  0.3
  * Date.......:  04.11.16 (Start 14.2.2016)
  * Status.....:  beta version/ works, voltage meter inaccurate  
  * Project....:  https://www.facebook.com/groups/kolloidalessilbergeraetetechnik/permalink/1328210467210327/
