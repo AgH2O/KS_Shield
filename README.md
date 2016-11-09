@@ -20,7 +20,7 @@ Bitte unbedingt beachten:
 
 3.) Beim ersten Einschalten kann es sein, das die beleuchtete LCD-Anzeigen nichts anzeigt, aber trotzdem alles funktioniert. Drehen sie am Spindelpoti für den Kontrast, bis die Zeichen erkennbar werden.
 
-4.) Dies ist kein Elektronik-Einsteiger Projekt !!!!
+4.) Dies ist kein Elektronik-Einsteiger Projekt !!
 
 Bekannte Probleme (Stand 6.11.2016):
 - Die Brücke auf der Bestückungsseite, am T1, ist sehr nahe am Transistor. Hier bitte ein Stück Isolierschlauch benutzen.
