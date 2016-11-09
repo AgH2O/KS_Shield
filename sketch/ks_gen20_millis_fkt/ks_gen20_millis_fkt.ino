@@ -13,6 +13,7 @@
  *               Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
  *
  ********************************************/
+// PetS 9.11.16 New feature - Menü zur Wahl der Zeit des Polaritätswechsels von 0 bis 10 minuten
 
 #include <LiquidCrystal.h>
 
@@ -199,7 +200,7 @@ void loop() {
     print_polw(polwechselzeit);
     do {
       if (lese_tasten() == 1) {
-        if (polwechselzeit < 6)
+        if (polwechselzeit < 10)
           polwechselzeit = polwechselzeit + 1 ;
         lcd.setCursor(11, 0);
         lcd.print(polwechselzeit);
