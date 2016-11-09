@@ -1,6 +1,6 @@
 # ks_shield
 Kolloidal Silber Generator Arduino Uno shield
-#############################################
+##############################################
 
 Die Informationen zu diesem Projekt sind mit größter Sorgfalt erarbeitet.Dennoch können Fehler nicht vollständig ausgeschlossen werden. Die Authoren/Entwickler übernehmen keinerlei juristische Verantwortung oder Haftung für eventuell verbliebende Fehler und deren Folgen.
 
