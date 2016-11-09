@@ -1,4 +1,4 @@
-/*******************************************
+  /*******************************************
  *
  * Name.......:  ks_gen
  * Description:  Arduino sketch for the kolloidal silver generator shield 
@@ -14,7 +14,7 @@
  *
  ********************************************/
 // PetS 9.11.16 New feature - Menü zur Wahl der Zeit des Polaritätswechsels von 0 bis 10 minuten
-
+// PetS 9.11.16 New feature - Software Reset mittels assembler jump nach Addresse 0 
 #include <LiquidCrystal.h>
 
 //LCD Size 16x2
@@ -152,6 +152,14 @@ void zweiSekunden(void) {
     else
       delay(20);
 }
+
+void software_Reset() {
+// Restarts program from beginning but 
+// does not reset the peripherals and registers
+
+  asm volatile ("  jmp 0");  
+} 
+
 // *** M A I N L O O P ***
 void loop() {
   do { //zureck Schleife
@@ -266,7 +274,7 @@ void loop() {
   // Start KS
   lcd.clear();
   digitalWrite(START, HIGH); //Relais einschalten!
-
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
   for (i = 0; i <= (kszeit - 1); i ++){
     lcd.setCursor(0, 0);
     lcd.print("noch     Min.");
@@ -295,8 +303,10 @@ void loop() {
       lcd.setCursor(0, 1);
       adc_wert = analogRead(0);
       spannung = (float) adc_wert * 0.0049 ; // 0.0049 (5V /1024)
-      lcd.print((int)(spannung * 13));
-      lcd.print(" Volt");
+      lcd.print((int)(spannung * 13)); // Spannnungsteilerverhältnis 13
+      lcd.print(" Volt "); // ein Leerzeichen hinten dran, wegen einstellige V.
+      if(lese_tasten() == 5)
+	software_Reset();
     }
     //delay(60000); // 1 eine_minute == 60000
     //delay(eine_minute);
