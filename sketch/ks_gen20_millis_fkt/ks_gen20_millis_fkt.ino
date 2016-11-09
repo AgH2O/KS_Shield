@@ -133,7 +133,7 @@ void print_ppm(float ppm) {
 void print_polw(unsigned int polwechselzeit) {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Umpolzeit:   Sek");
+  lcd.print("Umpolzeit:   Min");
   lcd.setCursor(0, 1);
   lcd.print("Auf   Ab  Weiter");
   lcd.setCursor(11, 0);
@@ -293,8 +293,8 @@ void loop() {
     while(millis() - startzeit < eine_minute){
       lcd.setCursor(0, 1);
       adc_wert = analogRead(0);
-      spannung = (float) adc_wert * 0.0048 ; // 0.0049 (5V /1024)
-      lcd.print((int)(spannung * 12));
+      spannung = (float) adc_wert * 0.0049 ; // 0.0049 (5V /1024)
+      lcd.print((int)(spannung * 13));
       lcd.print(" Volt");
     }
     //delay(60000); // 1 eine_minute == 60000
