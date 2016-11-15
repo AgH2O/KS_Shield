@@ -1,7 +1,7 @@
-# ks_shield
 ## NEWS
 14.11.16 - Das KS-GEN-Shield-V1-final_rev02.lay6 Platinenlayout wurde minimal an der Brücke zum T1 überarbeitet. TNX Thor!
 
+# ks_shield
 Kolloidal Silber Generator Arduino Uno shield
 ##############################################
 
@@ -25,6 +25,5 @@ Bitte unbedingt beachten:
 
 4.) Dies ist kein Elektronik-Einsteiger Projekt !!
 
-Bekannte Probleme (Stand 6.11.2016):
-- Die Brücke auf der Bestückungsseite, am T1, ist sehr nahe am Transistor. Hier bitte ein Stück Isolierschlauch benutzen.
+Bekannte Probleme (Stand 14.11.2016):
 - Die Spannungsmessung ist ungenau, kann aber durch nachmessen der 5V Betriebsspannung (4,8 - 5,2V) und eintragen des realen Multiplizierwertes in das Sketch ( die 0,0049V setzen sich aus der gemessenen Spannung/ Referenzspannung geteilt durch 1024 zusammen) verbessert werden.
