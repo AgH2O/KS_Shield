@@ -1,7 +1,7 @@
 ## NEWS
 14.11.16 - Das KS-GEN-Shield-V1-final_rev02.lay6 Platinenlayout wurde minimal an der Brücke zum T1 überarbeitet. TNX Thor!
 ***
-# ks_shield
+# **KS-GEN-SHIELD**
 Kolloidal Silber Generator Arduino Uno shield
 ##############################################
 
