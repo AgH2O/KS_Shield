@@ -1,5 +1,7 @@
-## NEWS
+﻿## NEWS
 14.11.16 - Das KS-GEN-Shield-V1-final_rev02.lay6 Platinenlayout wurde minimal an der Brücke zum T1 überarbeitet. TNX Thor!
+18.01.17 - Neue Version mit Methodenauswahl PPM oder Zeit / ppm-counter mittels Q = I * t 
+18.01.17 - Neues Layout KS-GEN-Shield-V1-final_shunt.lay6 mit shunt zur Strommessung. TNX Thor!
 ***
 # **KS-GEN-SHIELD**
 Kolloidal Silber Generator Arduino Uno shield
@@ -25,5 +27,7 @@ Bitte unbedingt beachten:
 
 4.) Dies ist kein Elektronik-Einsteiger Projekt !!
 
-Bekannte Probleme (Stand 14.11.2016):
+Bekannte Probleme (Stand 18.01.2017):
 - Die Spannungsmessung ist ungenau, kann aber durch nachmessen der 5V Betriebsspannung (4,8 - 5,2V) und eintragen des realen Multiplizierwertes in das Sketch ( die 0,0049V setzen sich aus der gemessenen Spannung/ Referenzspannung geteilt durch 1024 zusammen) verbessert werden.
+- Zur Strommessung muss die Variable shunt auf den Wert des genommenen Wertes gesetzt werden (50 oder 51 Ohm)
+- Zur Stabilisierung der Messung wurde der ADC auf INTERN Referenz 1.1V gesetzt, was unabhängig von der Versorgungsspannung macht. Deshalb sind auch die Spannungsteilerwiderstände verändert worden.
