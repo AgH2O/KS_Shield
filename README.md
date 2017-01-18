@@ -28,6 +28,6 @@ Bitte unbedingt beachten:
 4.) Dies ist kein Elektronik-Einsteiger Projekt !!
 
 Bekannte Probleme (Stand 18.01.2017):
-- Die Spannungsmessung ist ungenau, kann aber durch nachmessen der 5V Betriebsspannung (4,8 - 5,2V) und eintragen des realen Multiplizierwertes in das Sketch ( die 0,0049V setzen sich aus der gemessenen Spannung/ Referenzspannung geteilt durch 1024 zusammen) verbessert werden.<br>
+- <s>Die Spannungsmessung ist ungenau, kann aber durch nachmessen der 5V Betriebsspannung (4,8 - 5,2V) und eintragen des realen Multiplizierwertes in das Sketch ( die 0,0049V setzen sich aus der gemessenen Spannung/ Referenzspannung geteilt durch 1024 zusammen) verbessert werden.</s>
 - Zur Strommessung muss die Variable shunt auf den Wert des genommenen Wertes gesetzt werden (50 oder 51 Ohm)
 - Zur Stabilisierung der Messung wurde der ADC auf INTERN Referenz 1.1V gesetzt, was unabhängig von der Versorgungsspannung macht. Deshalb sind auch die Spannungsteilerwiderstände verändert worden.
