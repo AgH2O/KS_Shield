@@ -1,10 +1,10 @@
-## NEWS
+### NEWS
 <p>14.11.16 - Das KS-GEN-Shield-V1-final_rev02.lay6 Platinenlayout wurde minimal an der Brücke zum T1 überarbeitet. TNX Thor!</p>
 <p>18.01.17 - Neue Version mit Methodenauswahl PPM oder Zeit / ppm-counter mittels Q = I * t. 
 Neues Layout KS-GEN-Shield-V1-final_shunt.lay6 mit shunt zur Strommessung. TNX Thor!</p>
-***
-# **KS-GEN-SHIELD**
-Kolloidal Silber Generator Arduino Uno shield
+
+## **KS-GEN-SHIELD**
+Kolloidal Silber Generator Arduino Uno shield</br>
 ##############################################
 
 Die Informationen zu diesem Projekt sind mit größter Sorgfalt erarbeitet.Dennoch können Fehler nicht vollständig ausgeschlossen werden. Die Authoren/Entwickler übernehmen keinerlei juristische Verantwortung oder Haftung für eventuell verbliebende Fehler und deren Folgen.
