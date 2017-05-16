@@ -1,7 +1,8 @@
-### NEWS
+p### NEWS
 <p>14.11.16 - Das KS-GEN-Shield-V1-final_rev02.lay6 Platinenlayout wurde minimal an der Brücke zum T1 überarbeitet. TNX Thor!</p>
 <p>18.01.17 - Neue Version mit Methodenauswahl PPM oder Zeit / ppm-counter mittels Q = I * t. 
 Neues Layout KS-GEN-Shield-V1-final_shunt.lay6 mit shunt zur Strommessung. TNX Thor!</p>
+<p>16.05.17 Hard u. Software patch 1 - Verbesserung der Schaltung. K2, D2, T1 werden durch einen BC327-25 ersetzt. Ausserdem ist ein 100nF Kondensator am AREF nach Masse dazu gekommen. Die Messwerte sind dadurch ruhiger und störungsfreier. Die Logik des Einschaltens muss invertiert werden digitalWrite(START, HIGH); -->ist jetzt STOP und umgekehrt ! Der patch muss nicht zwingend angewendet werden. Danke an Markus W.</p>
 
 ## **KS-GEN-SHIELD**
 Kolloidal Silber Generator Arduino Uno shield</br>
