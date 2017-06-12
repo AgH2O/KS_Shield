@@ -3,6 +3,7 @@ p### NEWS
 <p>18.01.17 - Neue Version mit Methodenauswahl PPM oder Zeit / ppm-counter mittels Q = I * t. 
 Neues Layout KS-GEN-Shield-V1-final_shunt.lay6 mit shunt zur Strommessung. TNX Thor!</p>
 <p>16.05.17 Hard u. Software patch 1 - Verbesserung der Schaltung. K2, D2, T1 werden durch einen BC327-25 ersetzt. Ausserdem ist ein 100nF Kondensator am AREF nach Masse dazu gekommen. Die Messwerte sind dadurch ruhiger und störungsfreier. Die Logik des Einschaltens muss invertiert werden digitalWrite(START, HIGH); -->ist jetzt STOP und umgekehrt ! Der patch muss nicht zwingend angewendet werden. Danke an Markus W.</p>
+<p>12.06.2017 ACHTUNG FEHLER in der Bestelliste: die 1,6kOhm sind keine 0.1% sondern normale Metalfilm wie die anderen Widerstände. Fehler tut der SHUNT Widerstand 51 Ohm und der sollte 0.1% haben und die Zenerdiode 4,7Volt parallel zum Shunt(dient nur als Überspannungsschutz für den ADC Eingang</p>
 
 ## **KS-GEN-SHIELD**
 Kolloidal Silber Generator Arduino Uno shield</br>
